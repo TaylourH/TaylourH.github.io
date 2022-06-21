@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+}  */
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
+
+.nav_container .header_code {
+    color: white;
+}
+
+.main_nav ul {
+    /* padding: 0;
+margin: 0; */
+    list-style: none;
+}
+
+.main_nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_container a {
+    text-decoration: none;
+}
+
+.main_nav li:hover .a {
+    color: pink;
+    display: inline;
+}
+
+.main_nav li:hover .a {
+    color: pink;
+    display: none;
+}
+
+.main_nav li .b {
+    display: none;
+}
+
+.main_nav li:hover .b {
+    display: inline;
+}
+
+.code_yellow {
+    color: rgb(241, 241, 75);
+}
+
+.protected_text {
+    color: rgb(203, 114, 52);
+}
+
+.main_nav li .b .string_text {
+    color: white;
+}
+
+.main_nav li .b .field_text {
+    color: rgb(130, 67, 207);
+}
+
+.code_semicolon {
+    color: rgb(214, 108, 32);
+}
+
+.section_title {
+    text-align: center;
+}
+
+.this_text {
+    color: rgb(214, 108, 32);
+}
+
+.this_field {
+    color: rgb(130, 67, 207);
+}
+
+.about_me_container {
+    align-content: space-between;
+    text-align: center;
+}
+
+.about_me {
+    text-align: center;
+}
+
+#about_me_pic img {
+    justify-content: left;
+    height: 500px;
+    width: auto;
+}
+
+.about_me_container .about_me_set {
+    align-content: space-between;
+    text-align: left;
+}
+
+.about_me_container .about_me_combo {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify
+}
+
+.about_me_set {
+    padding-bottom: 0;
+}
+
+.skill_list {
+    text-align: left;
+}
+
+#about {
+    padding: 0;
+    margin: 0;
+}
+
+#skills {
+    padding: 0;
+    margin: 0;
+}
+
+#projects {
+    padding: 0;
+    margin: 0;
+}
+
+#haiku {
+    padding: 0;
+    margin: 0;
+}
+
+#contact {
+    padding: 0;
+    margin: 0;
+}
+
+#mainheading {
+    padding: 0;
+    padding-left: 3rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.about_me_container .about_me_combo .random_fact {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.main_heading h1 .a {
+    display: inline;
+}
+
+.main_heading:hover h1 .a {
+    display: none;
+}
+
+.main_heading h1 .b {
+    display: none;
+}
+
+.main_heading:hover h1 .b {
+    display: inline;
+}
+
+.section_title h2 .a {
+    display: inline;
+}
+
+.section_title:hover h2 .a {
+    display: none;
+}
+
+.section_title h2 .b {
+    display: none;
+}
+
+.section_title:hover h2 .b {
+    display: inline;
+}
+
+.contact_me {
+    text-align: center;
+}
+
+.contact_me h2 .a {
+    display: inline;
+}
+
+.contact_me:hover h2 .a {
+    display: none;
+}
+
+.contact_me h2 .b {
+    display: none;
+}
+
+.contact_me:hover h2 .b {
+    display: inline;
+}
+
+.skill_list {
+    list-style: none;
+}
+
+.haiku {
+    text-align: center;
+}
+
+.site_rights {
+    text-align: center;
+    font-size: .75em;
+    font-style: oblique;
+    color: black;
+    background-color: rgb(155, 154, 154);
+}
+
+.project_articles {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact_links ul {
+    list-style: none;
+}
+
+.contact_links ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_links img {
+    height: 25px;
+    width: 25px;
+    padding-right: .75rem;
+}
+
+.skills_container {
+    background-color: rgb(155, 154, 154);
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.haiku {
+    background-color: rgb(155, 154, 154);
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.projects_container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project_articles img {
+    height: 100px;
+    width: 100px;
+}
+
+.project_articles article {
+    text-align: center;
+}
+
+.contact_me {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.email a {
+    text-decoration: none;
+    color: rgb(14, 192, 14);
+}

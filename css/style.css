@@ -3,6 +3,8 @@
 /* *, *::before, *::after {
     box-sizing: border-box;
 }  */
+
+/* SITE BASES */
 body {
     font-family: 'Hind', sans-serif;
     font-size: 1.2rem;
@@ -10,6 +12,56 @@ body {
     color: white;
 }
 
+.code_yellow {
+    color: rgb(241, 241, 75);
+}
+
+.protected_text {
+    color: rgb(203, 114, 52);
+}
+
+.main_nav li .b .string_text {
+    color: white;
+}
+
+.main_nav li .b .field_text {
+    color: rgb(130, 67, 207);
+}
+
+.code_semicolon {
+    color: rgb(214, 108, 32);
+}
+
+.section_title {
+    text-align: center;
+}
+
+.this_text {
+    color: rgb(214, 108, 32);
+}
+
+.this_field {
+    color: rgb(130, 67, 207);
+}
+
+.section_title h2 .a {
+    display: inline;
+}
+
+.section_title:hover h2 .a {
+    display: none;
+}
+
+.section_title h2 .b {
+    display: none;
+}
+
+.section_title:hover h2 .b {
+    display: inline;
+}
+
+/* HEADER */
+/* NAV */
 .nav_container .header_code {
     color: white;
 }
@@ -47,37 +99,8 @@ margin: 0; */
     display: inline;
 }
 
-.code_yellow {
-    color: rgb(241, 241, 75);
-}
-
-.protected_text {
-    color: rgb(203, 114, 52);
-}
-
-.main_nav li .b .string_text {
-    color: white;
-}
-
-.main_nav li .b .field_text {
-    color: rgb(130, 67, 207);
-}
-
-.code_semicolon {
-    color: rgb(214, 108, 32);
-}
-
-.section_title {
-    text-align: center;
-}
-
-.this_text {
-    color: rgb(214, 108, 32);
-}
-
-.this_field {
-    color: rgb(130, 67, 207);
-}
+/* MAIN CONTAINER */
+/* ABOUT ME */
 
 .about_me_container {
     align-content: space-between;
@@ -109,31 +132,7 @@ margin: 0; */
     padding-bottom: 0;
 }
 
-.skill_list {
-    text-align: left;
-}
-
 #about {
-    padding: 0;
-    margin: 0;
-}
-
-#skills {
-    padding: 0;
-    margin: 0;
-}
-
-#projects {
-    padding: 0;
-    margin: 0;
-}
-
-#haiku {
-    padding: 0;
-    margin: 0;
-}
-
-#contact {
     padding: 0;
     margin: 0;
 }
@@ -166,20 +165,74 @@ margin: 0; */
     display: inline;
 }
 
-.section_title h2 .a {
-    display: inline;
+/* SKILLS */
+.skill_list {
+    text-align: left;
 }
 
-.section_title:hover h2 .a {
-    display: none;
+#skills {
+    padding: 0;
+    margin: 0;
 }
 
-.section_title h2 .b {
-    display: none;
+.skill_list {
+    list-style: none;
 }
 
-.section_title:hover h2 .b {
-    display: inline;
+.skills_container {
+    background-color: rgb(155, 154, 154);
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* PROJECTS */
+#projects {
+    padding: 0;
+    margin: 0;
+}
+
+.project_articles {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.projects_container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project_articles img {
+    height: 100px;
+    width: 100px;
+}
+
+.project_articles article {
+    text-align: center;
+}
+
+/* HAIKU */
+#haiku {
+    padding: 0;
+    margin: 0;
+}
+
+.haiku {
+    text-align: center;
+}
+
+.haiku {
+    background-color: rgb(155, 154, 154);
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* CONTACT ME */
+#contact {
+    padding: 0;
+    margin: 0;
 }
 
 .contact_me {
@@ -202,28 +255,6 @@ margin: 0; */
     display: inline;
 }
 
-.skill_list {
-    list-style: none;
-}
-
-.haiku {
-    text-align: center;
-}
-
-.site_rights {
-    text-align: center;
-    font-size: .75em;
-    font-style: oblique;
-    color: black;
-    background-color: rgb(155, 154, 154);
-}
-
-.project_articles {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
 .contact_links ul {
     list-style: none;
 }
@@ -239,34 +270,6 @@ margin: 0; */
     padding-right: .75rem;
 }
 
-.skills_container {
-    background-color: rgb(155, 154, 154);
-    color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.haiku {
-    background-color: rgb(155, 154, 154);
-    color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.projects_container {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.project_articles img {
-    height: 100px;
-    width: 100px;
-}
-
-.project_articles article {
-    text-align: center;
-}
-
 .contact_me {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -275,4 +278,13 @@ margin: 0; */
 .email a {
     text-decoration: none;
     color: rgb(14, 192, 14);
+}
+
+/* FOOTER */
+.site_rights {
+    text-align: center;
+    font-size: .75em;
+    font-style: oblique;
+    color: black;
+    background-color: rgb(155, 154, 154);
 }

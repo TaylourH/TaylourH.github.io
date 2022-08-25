@@ -2,11 +2,25 @@
 .body {
     box-sizing: border-box;
 }
-
+/* UNDER CONSTRUCTION */
 .construction {
     display: block;
+    text-align: center;
+    background-color: grey;
+    padding: 1rem;
 }
-
+.construction h1 {
+    padding: 0;
+    margin: 0;
+    color: yellow;
+}
+.construction p {
+    color: white;
+}
+.boldText {
+    font-weight: bold;
+    font-style: italic;
+}
 .portfolioContent {
     display: none;
 }

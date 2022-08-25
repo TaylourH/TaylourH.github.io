@@ -3,6 +3,14 @@
     box-sizing: border-box;
 }
 
+.construction {
+    display: block;
+}
+
+.portfolioContent {
+    display: none;
+}
+
 /* HEADER */
 /* NAV */
 #header_code_fields {
@@ -44,15 +52,18 @@
     grid-template-rows: auto auto auto auto;
     justify-content: space-evenly;
 }
+
 .skill_list li {
     display: flex;
     align-items: center;
     gap: .5rem;
 }
+
 .skill_list p {
     padding: 0;
     margin: 0;
 }
+
 /* .skill_list > li > img {
     height: 25px;
     width: 25px;
@@ -61,6 +72,7 @@
     height: 25px;
     width: 25px;
 }
+
 /* PROJECTS */
 .project_articles {
     columns: 3;

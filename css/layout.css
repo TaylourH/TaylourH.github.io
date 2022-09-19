@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 /* UNDER CONSTRUCTION */
-.construction {
+/* .construction {
     display: block;
     text-align: center;
     background-color: grey;
@@ -23,7 +23,7 @@
 }
 .portfolioContent {
     display: none;
-}
+} */
 
 /* HEADER */
 /* NAV */
@@ -54,8 +54,8 @@
 }
 
 .about_me_set {
-    display: flex;
-    flex-direction: column 2;
+    display: grid;
+    grid-template-columns: auto auto;
     padding: 1rem
 }
 
@@ -96,8 +96,8 @@
 
 /* CONTACT ME */
 .contact_combo {
-    display: flex;
-    flex-direction: column 2;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
 }
 

@@ -164,6 +164,23 @@ margin: 0; */
 .main_heading:hover h1 .b {
     display: inline;
 }
+.factBtn {
+    color: white;
+    font-weight: bold;
+    background-color: goldenrod;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.factBtn:hover {
+    color: white;
+    background-color: goldenrod;
+   cursor: pointer;
+}
+.factContainer {
+    background-color: darkcyan;
+    padding: 1rem;
+    border-radius: 25px;
+}
 
 /* SKILLS */
 .skill_list {
@@ -262,12 +279,13 @@ margin: 0; */
 .contact_links ul a {
     text-decoration: none;
     color: white;
+    padding-left: .75rem;
 }
 
 .contact_links img {
     height: 25px;
     width: 25px;
-    padding-right: .75rem;
+    background-color: white;
 }
 
 .contact_me {

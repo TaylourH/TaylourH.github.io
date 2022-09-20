@@ -3,6 +3,17 @@ body {
     box-sizing: border-box;
     /* width: 1500px; */
 }
+/* @media screen and (min-width:360px) {
+    body{
+        box-sizing: border-box;
+        width: 360px;
+    }
+    .header_top,.portfolioContent, .main_content_container, .about_me_container, .about_me_pic, .about_me_set, .about_me_combo, .about_me, .contact_me, .contact_combo, .contact_me_section, .contact_me_section form, .contact_links {
+        display: flex;
+        flex-direction: column;
+    }
+
+} */
 
 /* UNDER CONSTRUCTION */
 /* .construction {

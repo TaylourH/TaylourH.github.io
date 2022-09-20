@@ -362,7 +362,7 @@
         <section class="contact_combo">
             <div class="contact_me_section">
                 <h2>Contact me by email.</h2>
-                <form action="mailto:contacttaylourharris@gmail.com" method="get" enctype="text/plain">
+                <form action="mailto:contacttaylourharris@gmail.com" method="POST" enctype="multipart/form-data">
                     <div class="form_left">
                         <div>
                             <label for="name">Your Name:</label>
@@ -379,8 +379,8 @@
                             <textarea name="comments" rows="12" cols="35"></textarea>
                         </div>
                         <div>
-                            <button class="cmBtns" type="submit" name="submit" formenctype="multipart/form-data" value="send">Send</button>
-                            <button class="cmBtns" type="reset" name="reset" value="reset">Clear</button>
+                            <input class="cmBtns" type="submit" name="submit" value="Send">
+                            <input class="cmBtns" type="reset" name="reset" value="Clear">
                         </div>
                     </div>
                 </form>

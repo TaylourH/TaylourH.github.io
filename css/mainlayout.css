@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
     /* width: 1500px; */
 }
+
 /* @media screen and (min-width:360px) {
     body{
         box-sizing: border-box;
@@ -194,6 +195,17 @@ body {
 
 .project_articles article p {
     width: 200px;
+}
+
+.otherProjects {
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.otherProjects h4 {
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 /* HAIKU */
